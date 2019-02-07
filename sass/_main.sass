@@ -1,0 +1,206 @@
+.photos
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22), inset 0 -1px 0 rgba(255, 255, 255, 0.22)
+    background-color: #c9dce6
+    padding: 30px 0
+
+
+.carousel
+    width: 92%
+    margin: 0 auto
+    position: relative
+    &__item
+        width: 130px
+        height: 100px
+        margin: 0 auto
+        
+
+.owl-nav
+    display: block !important
+
+.owl-next
+    background-image: url(../img/next.png)!important
+    right: -3%
+    
+
+.owl-prev
+    background-image: url(../img/prev.png)!important
+    position: absolute 
+    left: -3%
+    
+
+.owl-prev, .owl-next   
+    position: absolute 
+    width: 16px
+    height: 30px
+    top: 50%
+    transform: translateY(-50%)
+    outline: 0
+
+
+.about
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22), inset 0 -1px 0 rgba(255, 255, 255, 0.22)
+    background-color: #d7e7ef
+    padding: 50px 0 110px
+    &__text
+        color: #7da0b3
+        font: italic 23px "Charis"
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55)
+        line-height: 35px
+
+.services-list
+    display: flex
+    justify-content: space-between
+    list-style: none
+    padding: 70px 0
+
+.services-item
+    flex-basis: 30%
+    &__title
+        color: #456474
+        font: 700 16px "Charis"
+        line-height: 31px
+        letter-spacing: 1px
+        margin-bottom: 10px
+        padding-left: 40px
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55)
+    &__text
+        color: #505050
+        font: 400 13px "Lucida"
+        line-height: 20px
+    
+.palette
+    background: url(../img/palette.png) 0 0 no-repeat
+
+.camera
+    background: url(../img/camera.png) 0 0 no-repeat
+
+.folder
+    background: url(../img/folder.png) 0 0 no-repeat
+
+.reviews
+    background-color: #c9dce6
+    max-width: 625px
+    width: 100%
+    padding: 15px 10px
+    display: inline-block
+    &__text
+        color: #456474
+        font: 400 17px "Charis"
+
+.reviews-list
+    display: flex
+    justify-content: space-between
+    margin-top: 20px
+
+.reviews-item
+    flex-basis: 45%
+    color: #456474
+    font: italic 400 12px "Lucida"
+    line-height: 18px
+    position: relative
+    padding-left: 20px
+    &__author
+        font: 700 12px "Lucida"  
+        line-height: 25px  
+    &:before
+        content: ''
+        background: url(../img/quotes.png) 0 0 no-repeat
+        display: inline-block
+        width: 13px
+        height: 13px
+        position: absolute
+        left: 0
+        top: 0
+
+.contacts
+    width: 30%
+    display: inline-block
+    float: right
+
+.form
+    display: flex   
+
+.email
+    background-color: #fcfcfc
+    border: 1px solid rgba(169, 191, 210, 0.77)
+    color: #7a7a7a
+    font: 400 11px "Lucida"
+    width: 194px
+    height: 35px
+    padding: 0 5px
+    
+
+.submit
+    border: 1px solid #a9bfd2
+    background-image: linear-gradient(to top, #9cbdce 0%, #c3dae6 100%)
+    text-transform: uppercase
+    width: 65px
+    height: 35px
+    cursor: pointer
+    color: #62889a
+    font: 400 13px "Charis"
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75)
+
+.contacts-list
+    list-style: none
+    color: #505050
+    font: 400 12px "Lucida"
+    margin-top: 25px
+    
+    
+
+.contacts-item
+    padding-left: 30px
+    margin-bottom: 15px
+    
+   
+
+.phone
+    background: url(../img/phone.png) 0 0 no-repeat
+    line-height:  21px
+
+.mail
+    background: url(../img/mail.png) 0 0 no-repeat
+    line-height:  11px
+
+.link
+   background: url(../img/link.png) 0 0 no-repeat
+   line-height:  21px 
+
+
+@media (max-width: 992px)
+
+    .about
+        padding: 40px 0
+
+    .services-list
+        flex-direction: column
+        justify-content: center
+        padding: 30px 0
+
+    .services-item
+        margin: 0 auto 10px auto
+        width: 80%
+
+    .reviews
+        width: 80%
+        display: block
+        margin: 0 auto
+
+    .contacts
+        float: none
+        width: 100%
+        margin-top: 20px
+
+    .form
+        justify-content: center
+
+    .contacts-list
+        display: flex
+        justify-content: space-around
+        align-items: center
+
+@media (max-width: 768px)
+    .contacts-list
+        display: 
+        

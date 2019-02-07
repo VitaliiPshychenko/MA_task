@@ -1,0 +1,83 @@
+.header
+    background-color: #f1f1f0
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22), inset 0 -1px 2px #ffffff
+    padding: 20px 0 50px
+
+.head
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.55)
+    border-bottom: 1px solid #e7e7e2
+    padding: 10px 0
+    display: flex
+    justify-content: space-between
+    align-items: flex-end
+    
+.phone-number
+    color: #504f4f
+    font: 400 18px "Charis"
+
+.grey-text
+    color: #a5a5a5
+    margin-right: 5px
+
+
+.product-list
+    padding-top: 35px
+
+.product-item
+    display: flex
+    justify-content: space-between
+    &__content
+        flex-basis: 27%
+        h2
+            color: #504f4f
+            font: 900 30px "Charis"
+            line-height: 25px
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.55)
+        p,ul
+            color: #505050
+            font: 400 14px "Lucida"
+        ul
+            list-style: square inside
+            padding-bottom: 15px
+            line-height: 27px
+        p
+            padding: 15px 0
+            line-height: 22px
+        .button
+            border: 1px solid #a9bfd2
+            background-image: linear-gradient(to top, #9cbdce 0%, #c3dae6 100%)
+            color: #62889a
+            display: inline-block   
+            font: 400 15px "Charis"
+            text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75)
+            text-transform: uppercase
+            padding: 5px 15px                 
+
+.img-wrap
+    background-color: #fff
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.38)
+    flex-basis: 70%
+    width: 670px
+    max-height: 380px
+    height: auto
+    display: flex
+    justify-content: center
+    align-items: center
+    img
+        width: 96%
+        max-height: 93%
+        height: auto
+
+
+@media (max-width: 992px)
+    .product-item
+        flex-wrap: wrap
+        justify-content: center
+        flex-basis: 80%
+        &__content
+            flex-basis: 80%
+            padding-top: 20px
+
+@media (max-width: 540px)
+    .head
+        flex-wrap: wrap
