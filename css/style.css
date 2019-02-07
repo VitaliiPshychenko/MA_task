@@ -133,6 +133,13 @@ a {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
   text-transform: uppercase;
   padding: 5px 15px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.product-item__content .button:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .img-wrap {
@@ -369,6 +376,13 @@ a {
   color: #62889a;
   font: 400 13px "Charis";
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.submit:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .contacts-list {
